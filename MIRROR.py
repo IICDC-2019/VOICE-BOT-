@@ -54,7 +54,7 @@ def myCommand():
     return command
 
 
-def tars(command):
+def mir(command):
     errors = ["I don't know what you mean", "Excuse me?", "Can you repeat it please?"]
     "if statements for executing commands"
 
@@ -96,4 +96,4 @@ talk(" MIRROR activated!")
 
 while True:
     time.sleep(1)
-    tars(myCommand())
+    mir(myCommand())
